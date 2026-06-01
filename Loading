@@ -1,0 +1,30 @@
+{"timestamp": "2026-06-01T19:57:24.166593Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/chat/threads/__LOCALID_4Wvgwo7", "status_code": 404, "process_time_ms": 4.4}
+{"timestamp": "2026-06-01T19:57:24.172172Z", "level": "info", "event": "Detected local GGUF model: C:\\neuronet\\oss\\gpt-oss-20b-MXFP4.gguf"}
+{"timestamp": "2026-06-01T19:57:24.262231Z", "level": "info", "event": "Loaded default model defaults from C:\\Users\\Vasia-PC\\.unsloth\\studio\\unsloth_studio\\Lib\\site-packages\\studio\\backend\\assets\\configs\\model_defaults\\default.yaml"}
+{"timestamp": "2026-06-01T19:57:24.265231Z", "level": "info", "event": "request_completed", "method": "POST", "path": "/api/inference/validate", "status_code": 200, "process_time_ms": 94.5}
+{"timestamp": "2026-06-01T19:57:24.336854Z", "level": "info", "event": "Detected local GGUF model: C:\\neuronet\\oss\\gpt-oss-20b-MXFP4.gguf"}
+{"timestamp": "2026-06-01T19:57:24.412544Z", "level": "info", "event": "GGUF metadata: context_length=131072"}
+{"timestamp": "2026-06-01T19:57:24.412632Z", "level": "info", "event": "GGUF metadata: chat_template=15910 chars"}
+{"timestamp": "2026-06-01T19:57:24.412709Z", "level": "info", "event": "GGUF metadata: model supports reasoning (reasoning_effort)"}
+{"timestamp": "2026-06-01T19:57:24.412786Z", "level": "info", "event": "GGUF metadata: model supports tool calling"}
+{"timestamp": "2026-06-01T19:57:24.458457Z", "level": "info", "event": "Context auto-reduced: 131072 -> 4096 (model: 11.3 GB, est. KV cache: 0.1 GB)"}
+{"timestamp": "2026-06-01T19:57:24.458560Z", "level": "info", "event": "GGUF size: 11.3 GB, est. KV cache: 0.1 GB, context: 4096, GPUs free: [(0, 6301)], selected: None, fit: True"}
+{"timestamp": "2026-06-01T19:57:24.458678Z", "level": "info", "event": "Reasoning model: {'reasoning_effort': 'high'} by default"}
+{"timestamp": "2026-06-01T19:57:24.458735Z", "level": "info", "event": "Starting llama-server: C:\\Users\\Vasia-PC\\.unsloth\\llama.cpp\\build\\bin\\Release\\llama-server.exe -m C:\\neuronet\\oss\\gpt-oss-20b-MXFP4.gguf --port 60943 -c 4096 --parallel 1 --flash-attn on --no-context-shift --fit on --threads -1 --jinja --spec-default --chat-template-kwargs {\"reasoning_effort\": \"high\"}"}
+{"timestamp": "2026-06-01T19:57:24.459739Z", "level": "info", "event": "llama-server stdout/stderr -> C:\\Users\\Vasia-PC\\.unsloth\\studio\\logs\\llama-server\\llama-1780343844-port-60943.log"}
+{"timestamp": "2026-06-01T19:57:24.676719Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 1.2}
+{"timestamp": "2026-06-01T19:57:26.186496Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 1.02}
+{"timestamp": "2026-06-01T19:57:28.195162Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 1.05}
+{"timestamp": "2026-06-01T19:57:30.454859Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 248.02}
+{"timestamp": "2026-06-01T19:57:32.221679Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 1.11}
+{"timestamp": "2026-06-01T19:57:34.254378Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/load-progress", "status_code": 200, "process_time_ms": 1.33}
+{"timestamp": "2026-06-01T19:57:35.449028Z", "level": "info", "event": "llama-server ready on port 60943 for model 'C:\\neuronet\\oss\\gpt-oss-20b-MXFP4.gguf'"}
+{"timestamp": "2026-06-01T19:57:35.577547Z", "level": "info", "event": "Loaded GGUF model via llama-server: C:\\neuronet\\oss\\gpt-oss-20b-MXFP4.gguf"}
+{"timestamp": "2026-06-01T19:57:35.579804Z", "level": "info", "event": "Loaded default model defaults from C:\\Users\\Vasia-PC\\.unsloth\\studio\\unsloth_studio\\Lib\\site-packages\\studio\\backend\\assets\\configs\\model_defaults\\default.yaml"}
+{"timestamp": "2026-06-01T19:57:35.582126Z", "level": "info", "event": "request_completed", "method": "POST", "path": "/api/inference/load", "status_code": 200, "process_time_ms": 11312.73}
+{"timestamp": "2026-06-01T19:57:35.851386Z", "level": "info", "event": "Loaded default model defaults from C:\\Users\\Vasia-PC\\.unsloth\\studio\\unsloth_studio\\Lib\\site-packages\\studio\\backend\\assets\\configs\\model_defaults\\default.yaml"}
+{"timestamp": "2026-06-01T19:57:35.853779Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/models/list", "status_code": 200, "process_time_ms": 8.25}
+{"timestamp": "2026-06-01T19:57:35.854005Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/inference/status", "status_code": 200, "process_time_ms": 5.88}
+{"timestamp": "2026-06-01T19:57:35.856376Z", "level": "info", "event": "Found 0 trained models in C:\\Users\\Vasia-PC\\.unsloth\\studio\\outputs"}
+{"timestamp": "2026-06-01T19:57:35.856771Z", "level": "info", "event": "Found 0 exported models in C:\\Users\\Vasia-PC\\.unsloth\\studio\\exports"}
+{"timestamp": "2026-06-01T19:57:35.857125Z", "level": "info", "event": "request_completed", "method": "GET", "path": "/api/models/loras", "status_code": 200, "process_time_ms": 2.54}
